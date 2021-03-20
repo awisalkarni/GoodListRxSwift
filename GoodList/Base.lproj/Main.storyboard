@@ -24,6 +24,9 @@
                                     <segment title="Medium"/>
                                     <segment title="Low"/>
                                 </segments>
+                                <connections>
+                                    <action selector="priorityValueChangedWithSegmentedControl:" destination="pNb-xI-d7d" eventType="valueChanged" id="9sY-db-gTn"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9YY-Fk-IfI">
                                 <rect key="frame" x="0.0" y="152" width="414" height="710"/>
